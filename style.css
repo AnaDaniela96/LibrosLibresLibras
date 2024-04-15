@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bs-green: #3f4d34;
+    --bs-green-2: #c2cb96;
+    --bs-yellow: #eecb75;
+    --bs-pink: #f5bda8;
+    --bs-blue: #cbdde9;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    color: var(--bs-green);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/***** START HEADER ****/
+header {
+
+    .navbar,
+    a,
+    select {
+        background-color: var(--bs-green) !important;
+        color: var(--bs-pink) !important;
+    }
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
+button.navbar-toggler:hover {
+    border: none;
+    background-color: var(--bs-pink);
+}
+
+button.navbar-toggler:focus {
+    border: none;
+    background-color: var(--bs-pink);
+}
+
+button:focus:not(:focus-visible) {
+    border: none;
+    background-color: var(--bs-pink);
+}
+
+ul.dropdown-menu.show {
+    --bs-dropdown-bg: var(--bs-green);
+    border: none;
+
+}
+
+/***** FINISH HEADER****/
+
+/***** START FOOTER****/
+footer {
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+    background-color: var(--bs-green);
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-thumbnail {
+        background-color: transparent;
+        border: none !important;
+    }
+
+    #copyright,
+    h5,
+    p,
+    h6,
+    label,
+    #emailHelp {
+        color: var(--bs-pink);
+    }
+}
+
+#map-site {
+    position: relative;
+    margin-top: 10%;
+}
+
+.bx {
+    font-size: 2rem;
+}
+
+/***** FINISH FOOTER ****/
+
+/***** START HOME ****/
+#home {
+    background-color: var(--bs-yellow);
+}
+
+/* Logo */
+.cover_logo {
+    z-index: 998;
+    position: fixed;
+    top: 2vw;
+    bottom: auto;
+    left: 3vw;
+    right: auto;
+}
+
+.cover_logo img {
+    width: 14vw;
+    max-width: 70%;
+}
+
+/* End Logo */
+
+/* Div principal*/
+.head {
+    z-index: 0;
+    height: 100vh;
+    background-color: var(--bs-green);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.title-principal {
+    color: var(--bs-pink);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12vw;
+    font-weight: 900;
+    line-height: 11vw;
+    position: relative;
+    will-change: opacity, transform, font-variation-settings;
+    opacity: 1;
+    transform: translate3d(1.7123vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    font-variation-settings: "wght" 763.016, "wdth" 132.877;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 10vw;
+    font-family: 900;
+    line-height: 15vw;
+    position: relative;
+}
+
+#container-brand {
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bs-green-2);
+
+    p {
+        font-weight: 600;
+        font-size: 3em;
+        color: var(--bs-green);
+        line-height: 0.9;
+        text-align: start;
+    }
+}
+
+/* End Div Principal */
+
+#enlace-ver-libros {
+    color: var(--bs-green) !important;
+    text-align: center;
+    background-color: transparent !important;
+    font-size: 1.5rem;
+}
+
+#enlace-ver-libros:hover {
+    font-weight: bold;
+}
+
+.icono-redSocial {
+    background-color: transparent !important;
+
+    .bx {
+        font-size: 8rem;
+        color: var(--bs-green);
+        transition: transform 0.3s ease-in-out;
+        border: 2px solid transparent;
+    }
+
+    .bx:hover {
+        transform: scale(1.1) translateY(-5px);
+        /* Hacemos que crezca un 10% y se mueva hacia arriba 5px */
+    }
+}
+
+#contenedor-foto-librero {
+    background-image: url(assets/fondo-sitioweb.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#afiliate {
+    background-color: var(--bs-blue);
+    color: var(--bs-green);
+}
+
+.title-suscribete {
+    font-size: 5em;
+}
+
+/***** FINISH HOME ****/
+
+/***** START CATÁLOGO DE LIBROS ****/
+#background-catalogo-libros {
+    background-color: var(--bs-green-2);
+}
+
+/***** FINISH CATÁLOGO DE LIBROS ****/
+
+/***** START VISTA DEL LIBRO ****/
+#background-catalogo-libros {
+    background-color: var(--bs-green-2);
+}
+
+/***** FINISH VISTA DEL LIBRO  ****/
+#foto-de-libro {
+    height: 475px;
+    width: auto;
+}
+
+/***** START CARDS DE LIBROS ****/
+.card-img-top {
+    max-height: 296px;
+    max-width: 204px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/***** CARDS DE LIBROS ****/
+.card {
+    width: 18rem;
+    min-height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+    color: var(-);
+    border: none !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+
+    a {
+        background-color: transparent !important;
+    }
+
+    .bx {
+        color: var(--bs-green);
+        font-size: 2rem;
+    }
+}
+
+.card:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+
+/***** END CARDS LIBROS ***/
+
+/***** FINISH CARDS DE LIBROS  ****/
+
+/******************** Large devices only **************/
+@media (min-width: 1200px) {}
+
+/******************** Medium devices only **************/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/******************** Small devices only **************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Home */
+    .title-suscribete {
+        font-size: 3em;
+    }
+
+    /* end Home */
+}
+
+/******************** Extra small devices only **************/
+@media (max-width: 767px) {
+
+    /* Home */
+    .title-suscribete {
+        font-size: 3em;
+    }
+
+    .icono-redSocial {
+        .bx {
+            font-size: 4rem;
+        }
+    }
+
+    /* end Home */
+}
+
+/******************** Super extra small devices only  **************/
+@media (max-width: 479px) {
+
+    /* Home */
+    .head {
+        height: 50vh;
+    }
+
+    #container-brand {
+        height: 50vh;
+
+        p {
+            font-weight: 600;
+            font-size: 1em;
+        }
+    }
+
+    .title-suscribete {
+        font-size: 2em;
+    }
+
+    .icono-redSocial {
+        .bx {
+            font-size: 3rem;
+        }
+    }
+
+    /* end Home */
+}
