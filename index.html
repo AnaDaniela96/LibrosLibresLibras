@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LibrosLibrasLibres</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+        integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body id="home">
+    <div class="cover_logo">
+        <a href="#home">
+            <img src="assets/logo-libroslibraslibres.svg" loading="lazy">
+        </a>
+    </div>
+
+    <div class="container-fluid head">
+        <h1 class="title-principal" id="title" data-aos="fade-down">Libros Libras Libres</h1>
+    </div>
+
+
+    <div class="container" id="container-brand">
+        <div class="text-center">
+            <p class="p-4" data-aos="fade-up">En Libros, libras y libres, creemos que cada libro cuenta una historia, y
+                nuestro compromiso
+                es garantizar que esas historias encuentren siempre un hogar adecuado, promoviendo la equidad, la
+                comunidad y el amor por la lectura.</p>
+        </div>
+    </div>
+
+    <section class="my-3">
+        <h4 class="text-center p-4">Explora algunos de los libros en nuestro catálogo</h4>
+
+        <div class="container d-flex flex-wrap justify-content-around align-items-center my-4">
+            <div class="card my-3">
+                <img src="../assets/LIBROS/034_220808.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">El hombre rebelde</h5>
+                    <p class="card-text">Albert, Camus</p>
+                    <p class="card-text">$130</p>
+                    <a href="./libros/el-hombre-rebelde.html"><i class='bx bx-show'></i></a>
+                </div>
+            </div>
+            <div class="card my-3">
+                <img src="../assets/LIBROS/036_220808.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">El hombre rebelde</h5>
+                    <p class="card-text">Albert, Camus</p>
+                    <p class="card-text">$130</p>
+                    <a href="./libros/el-hombre-rebelde.html"><i class='bx bx-show'></i></a>
+                </div>
+            </div>
+            <div class="card my-3">
+                <img src="../assets/LIBROS/038_220808.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">El hombre rebelde</h5>
+                    <p class="card-text">Albert, Camus</p>
+                    <p class="card-text">$130</p>
+                    <a href="./libros/el-hombre-rebelde.html"><i class='bx bx-show'></i></a>
+                </div>
+            </div>
+            <div class="card my-3">
+                <img src="../assets/LIBROS/040_220808.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">El hombre rebelde</h5>
+                    <p class="card-text">Albert, Camus</p>
+                    <p class="card-text">$130</p>
+                    <a href="./libros/el-hombre-rebelde.html"><i class='bx bx-show'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"> <a id="enlace-ver-libros" href="./Pages/catalogo-libros.html">Ver más</a></div>
+    </section>
+
+    <div class="row" style="height: 1cm;"></div>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-10 col-md-6">
+                <div class="text-center">
+                    <h2>¡Da click aquí para saber más de nuestro proyecto!</h2>
+                </div>
+            </div>
+            <div class="col-10 col-md-6" id="contenedor-foto-librero"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-4" id="afiliate">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-10 col-md-6">
+                <div class="text-center">
+                    <h2 data-aos="fade-down" class="title-suscribete">Suscríbete</h2>
+                    <p class="text-center">Nuestro newsletter te ofrecerá reseñas con textos y
+                        novedades ¡no te lo pierdas!</p>
+                </div>
+            </div>
+            <div class="col-10 col-md-6 d-flex justify-content-center align-items-center">
+                <form style="width: 60%;">
+                    <div>
+                        <h2 class="mb-4 p-3 text-center">Formulario de Datos</h2>
+                        <form id="myForm">
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="edad">Edad:</label>
+                                <input type="number" class="form-control" id="edad" name="edad" required>
+                            </div>
+
+                            <button type="submit" class="btn btn-light my-3">Enviar</button>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main class="container my-4">
+        <div class="text-center">
+            <h3 class="p-3">¡Explora nuestras redes sociales!</h3>
+        </div>
+        <div class="d-flex flex-wrap align-items-center justify-content-evenly">
+            <div>
+                <a class="icono-redSocial" href="www.facebook.com"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <div>
+                <a class="icono-redSocial" href="www.facebook.com"><i class='bx bxl-facebook'></i></a>
+            </div>
+            <div>
+                <a class="icono-redSocial" href="www.facebook.com"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<script>
+    // Obtener el elemento de la cabeza (head)
+    const headElement = document.querySelector('.head');
+    const title = document.getElementById('title');
+
+    // Agregar evento de desplazamiento vertical
+    window.addEventListener('scroll', () => {
+        // Verificar si el desplazamiento vertical es mayor a 100px (o cualquier valor deseado)
+        if (window.scrollY > 10) {
+            // Si es mayor a 100px, agregar la clase 'change-color' al elemento de la cabeza
+            headElement.classList.add('change-color');
+            title.style.color = "var(--bs-green)";
+
+        } else {
+            // Si es menor o igual a 100px, quitar la clase 'change-color' del elemento de la cabeza
+            headElement.classList.remove('change-color');
+            title.style.color = "var(--bs-pink)"
+        }
+    });
+</script>
+
+<script>
+    const scrollContainer = document.querySelector("main");
+
+    scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+    });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); 7</script>
+
+</html>
