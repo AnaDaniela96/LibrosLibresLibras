@@ -322,6 +322,16 @@ a {
 
 /***** FINISH VISTA DEL LIBRO  ****/
 
+/***** START QUIENES SOMOS *****/
+.parrafo-quienes-somos {
+    text-align: justify;
+}
+.banner {
+    border-radius: 16px;
+}
+/***** FINISHED QUIENES SOMOS ******/
+
+
 /******************** Large devices only **************/
 @media (min-width: 1200px) {}
 
