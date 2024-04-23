@@ -2,13 +2,15 @@
 
 document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Evitar que el formulario se envíe
-    var nombre = document.getElementById('exampleInputName1').value;
-    var correo = document.getElementById('exampleInputEmail1').value;
-    var avisoPrivacidad = document.getElementById('exampleCheck1').checked;
+    const nombre = document.getElementById('nombre').value;
+    const correo = document.getElementById('email').value;
+    const edad = document.getElementById('edad').value;
+    const avisoPrivacidad = document.getElementById('newsletter').checked;
 
     // Mostrar los datos en la consola
     console.log("Nombre: " + nombre);
     console.log("Correo Electrónico: " + correo);
+    console.log("Edad: " + edad);
     console.log("Aceptó aviso de privacidad: " + avisoPrivacidad);
 
     // Construir el objeto de datos para enviar a Mailchimp
