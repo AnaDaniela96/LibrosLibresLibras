@@ -78,21 +78,22 @@
         </div>
     </section>
 
-    <div class="text-center container-ver-mas"> <a id="enlace-ver-libros" href="./Pages/catalogo-libros.html">Ver más</a></div>
+    <div class="text-center container-ver-mas"> <a id="enlace-ver-libros" href="./Pages/catalogo-libros.html">Ver
+            más</a></div>
 
     <div class="row" style="height: 1cm;"></div>
 
     <div class="container">
-      <a href="./Pages/conocenos.html">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-10 col-md-6" id="contenedor-foto-librero"></div>
-            <div class="col-10 col-md-6">
-                <div class="text-center">
-                    <h2>¡Da click aquí para saber más de nuestro proyecto!</h2>
+        <a href="./Pages/conocenos.html">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-10 col-md-6" id="contenedor-foto-librero"></div>
+                <div class="col-10 col-md-6">
+                    <div class="text-center">
+                        <h2>¡Da click aquí para saber más de nuestro proyecto!</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-      </a>
+        </a>
     </div>
 
     <div class="container-fluid my-4" id="afiliate">
@@ -105,10 +106,10 @@
                 </div>
             </div>
             <div class="col-10 col-md-6 d-flex justify-content-center align-items-center">
-                <form style="width: 60%;">
+                <form style="width: 60%;" id="myForm">
                     <div>
                         <h2 class="mb-4 p-3 text-center">Formulario de Datos</h2>
-                        <form id="myForm">
+                        <div>
                             <div class="form-group">
                                 <label for="nombre">Nombre:</label>
                                 <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -121,11 +122,16 @@
 
                             <div class="form-group">
                                 <label for="edad">Edad:</label>
-                                <input type="number" class="form-control" id="edad" name="edad" required>
+                                <input type="number" class="form-control" id="edad" name="edad" min="0" max="99" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <label class="form-check-label" for="newsletter">Aviso de Privacidad</label>
                             </div>
 
                             <button type="submit" class="btn btn-light my-3">Enviar</button>
-                        </form>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -150,6 +156,7 @@
     </main>
 </body>
 
+<script src="../index.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
